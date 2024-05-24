@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap 5 Login Page | Code by AnDD</title>
+</head>
+<body>
+    <div class="row vh-100 g-0">
+        <!--Left Side-->
+        <div class="col-lg-6 position-relative d-none d-lg-block">
+            <div class="bg-holder" style="background-image: url(images/lucas-newton.jpg);"></div>
+        </div>
+        <!--End Left Side-->
+
+        <!--Right Side-->
+        <div class="col-lg-6">
+            <div class="row align-items-center justify-content-center h-100 g-0 px-4 px-sm-0">
+                <div class="col col-sm-6 col-lg-7 col-xl-6">
+                    <!--Logo-->
+                    <a href="#" class="d-flex justify-content-center mb-4">
+                        <img src="images/logo.png" alt="" width="60">
+                    </a>
+                    <!--End Logo-->
+                    <div class="text-center mb-5">
+                        <h3 class="fw-bold">Log In</h3>
+                        <p class="text-secondary">Get access to your account</p>
+                    </div>
+                    <!--Social Login-->
+                    <button class="btn btn-lg btn-outline-secondary w-100 mb-3 btn-outline-custom">
+                        <i class='bx bxl-google text-danger me-1 fs-6'></i> Login with Google
+                    </button>
+                    <button class="btn btn-lg btn-outline-secondary w-100 btn-outline-custom">
+                        <i class='bx bxl-facebook text-primary me-1 fs-6'></i> Login with Facebook
+                    </button>
+                    <!--End Social Login-->
+
+                    <!--Devider-->
+                    <div class="position-relative">
+                        <hr class="text-secondary devider">
+                        <div class="devider-content-center">or</div>
+                    </div>
+                    <!--End Devider-->
+
+                    <!--Form-->
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">
+                                <i class="bx bx-user"></i>
+                            </span>
+                            <input type="text" name="" id="" class="form-control form-control-lg fs-6" placeholder="Username">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">
+                                <i class="bx bx-lock-alt"></i>
+                            </span>
+                            <input type="text" name="" id="" class="form-control form-control-lg fs-6" placeholder="Password">
+                        </div>
+                        <div class="input-group mb-3 justify-content-between">
+                            <div class="form-check">
+                                <input type="checkbox" id="formCheck" class="form-check-input">
+                                <label for="formCheck" class="form-check-label text-secondary"><small>Remember Me</small></label>
+                            </div>
+                            <div>
+                                <small><a href="#">Forgot Password?</a></small>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-lg w-100 mb-3">Login</button>
+                    </form>
+                    <!--End Form-->
+
+                    <div class="text-center">
+                        <small>Don't have an account? <a href="#" class="fw-bold">Sign Up</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Right Side-->
+    </div>
+</body>
+</html>
